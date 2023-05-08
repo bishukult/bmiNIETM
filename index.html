@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator | NIETM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body align="center">
+    <div class="up">
+        <b> <u>BMI</u>&nbsp; <u>CALCULATOR</u></b>
+    </div>
+
+   
+    <br><br><br>
+    <center>
+        <table align="center" bgcolor="aliceblue" border="5">
+            <tr height="180" class="heading">
+                <td>
+                    &star; <u>BMI</u> <u>Calculator</u> &star;
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form name="f1">
+
+                        <label><b class="b">Enter Name :-</b> <input type="text" class="t" Id="name" autocomplete="off"
+                                placeholder="Enter your Name....................">
+                        </label>
+                        <label><b class="b">Enter Mass :-</b> <input autocomplete="off" type="number" class="n"
+                                name="n1" placeholder="Mass (kg)"><b class="b"> kg</b>
+                        </label>
+                        <label><b class="b">Enter Height :-</b> <input autocomplete="off" type="number" class="n"
+                                name="n2" placeholder="Height (m)"><b class="b"> m</b>
+                        </label>
+                        <br>
+                        <center>
+                            <input type="button" value="Clear" onclick="Clr()" class="bt">
+
+                            <input type="button" value="Calculate" onclick="Com()" class="bt">
+                        </center>
+                    </form>
+                    <center>
+                        <h1 Id="bmi"></h1>
+                        <h1 Id="ex"></h1>
+                    </center>
+
+                    <br>
+            </tr>
+            </td>
+        </table>
+    </center>
+
+    <br><br>
+    <script src="./script.js"></script>
+</body>
+
+</html>
